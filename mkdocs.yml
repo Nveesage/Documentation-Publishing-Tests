@@ -1,0 +1,39 @@
+site_name: new3
+site_url: https://sitename.example
+
+nav: 
+  - home: index.md
+  - Tests: 
+      - test1: Tests/test1.md
+      - test2: Tests/test2.md
+  - Material for mkdocs sample: 
+      - Nav & Theme: Material for mkdocs sample/Nav & Theme.md
+      - Nav & Theme 2: Material for mkdocs sample/Nav & Theme 2.md
+      - Preview control: Material for mkdocs sample/3. Preview Controls and Formatting Option.md
+
+theme:
+  name: material
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tracking
+    - navigation.path
+    - navigation.top
+
+  palette:
+  # Dark Theme
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: dark mode
+      primary: teal
+      accent: red
+      
+   # Light Theme   
+    - scheme: default
+      primary: blue
+      accent: light blue
+      toggle: 
+        icon: material/weather-night
+        name: light mode
