@@ -6,6 +6,7 @@ nav:
   - Tests: 
       - test1: Tests/test1.md
       - test2: Tests/test2.md
+      - test3: Tests/test3.md
   - Material for mkdocs sample: 
       - Nav & Theme: Material for mkdocs sample/Nav & Theme.md
       - Nav & Theme 2: Material for mkdocs sample/Nav & Theme 2.md
@@ -13,8 +14,9 @@ nav:
 
 theme:
   name: material
-
+  
   features:
+    - content.code.annotate
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.tracking
@@ -40,3 +42,21 @@ theme:
       toggle: 
         icon: material/weather-night
         name: light mode
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - admonition
+  - pymdownx.details          # This is a precursor to enabling superfences  
+  - abbr                      # This enables defined abbreviations within the page to be defined by a tooltip 
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences      # This enables flexibility of nesting especially within blocks
+  - pymdownx.highlight
+  - pymdownx.emoji:           # This is to enable being able to add icons anywhere within your document
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
