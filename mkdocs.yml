@@ -1,4 +1,4 @@
-site_name: new3
+site_name: Practice Portfolio
 site_url: https://sitename.example
 
 nav: 
@@ -7,16 +7,21 @@ nav:
       - test1: Tests/test1.md
       - test2: Tests/test2.md
       - test3: Tests/test3.md
-  - Material for mkdocs sample: 
-      - Nav & Theme: Material for mkdocs sample/Nav & Theme.md
-      - Nav & Theme 2: Material for mkdocs sample/Nav & Theme 2.md
-      - Preview control: Material for mkdocs sample/3. Preview Controls and Formatting Option.md
+  - Material sample: 
+      - Nav & Theme: Material sample/Nav & Theme.md
+      - Nav & Theme 2: Material sample/Nav & Theme 2.md
+      - Preview control: Material sample/3. Preview Controls and Formatting Option.md
+  - Resources:
+      - Beauties: Resources/collages.md
+      - Beauty test: Resources/collages2.md
 
 theme:
   name: material
   
   features:
     - content.code.annotate
+    - content.code.copy
+    - content.code.select
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.tracking
@@ -37,26 +42,34 @@ theme:
       
    # Light Theme   
     - scheme: default
-      primary: blue
-      accent: light blue
+      primary: yellow
+      accent: purple
       toggle: 
         icon: material/weather-night
         name: light mode
 
 markdown_extensions:
-  - pymdownx.superfences
+  - pymdownx.superfences      # This enables flexibility of nesting especially within blocks
   - pymdownx.tabbed:
-      alternate_style: true
-      slugify: !!python/object/apply:pymdownx.slugs.slugify
+      alternate_style: true   # For content tabs
+      slugify: !!python/object/apply:pymdownx.slugs.slugify 
         kwds:
           case: lower
   - admonition
+  - footnotes
   - pymdownx.details          # This is a precursor to enabling superfences  
   - abbr                      # This enables defined abbreviations within the page to be defined by a tooltip 
   - attr_list
   - md_in_html
-  - pymdownx.superfences      # This enables flexibility of nesting especially within blocks
   - pymdownx.highlight
   - pymdownx.emoji:           # This is to enable being able to add icons anywhere within your document
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Nveesage
+
+copyright: Copyright © 2026 The Clarity Stack

@@ -104,6 +104,6 @@ When we talk about HTML and Pymdownx there's are lots of things that makes them 
 
 [Send :fontawesome-solid-paper-plane:](./test2.md){ .md-button .md-button--primary }
 
-### Unfilled or Outline
+#### Unfilled or Outline
 To check for Previews controls and formatting  
 [:simple-youtube:](../Material%20for%20mkdocs%20sample/3.%20Preview%20Controls%20and%20Formatting%20Option.md){ .md-button }
