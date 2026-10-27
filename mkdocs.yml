@@ -14,6 +14,11 @@ nav:
   - Resources:
       - Beauties: Resources/collages.md
       - Beauty test: Resources/collages2.md
+  - idea deck:
+      - Mirror Mirror: idea deck/Mirror Mirror.md
+      - Mirror Mirror synthesized.md: idea deck/Mirror Mirror synthesized.md
+      - Mirror Mirror full archive: idea deck/mirror_mirror_complete_conversation_archive.md
+      - Mirror Mirror product blueprint.md: idea deck/mirror_mirror_core_architecture_product_blueprint.md
 
 theme:
   name: material

@@ -1,8 +1,8 @@
-# Welcome to MkDocs
+# Welcome Practice Portfolio
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+To check out my Ideas visit [Nveesage on web](https://nveesage.github.io/Documentation-Publishing---Ideas-/).
 
-## Commands
+## a little crack at Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.
