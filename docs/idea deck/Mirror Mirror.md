@@ -87,15 +87,14 @@ Never show a statistic without immediately pairing it with its real-world impact
 
 Instead of treating the data as a grade, treat it as a symptom of an underlying behavior.
 
-```
-❌ The Cold Stat (Noise): 
-"Your speaking rate hit 180 WPM (a 20% spike) during the behavioral question."
+!!! example
+    ❌ The Cold Stat (Noise): 
+    "Your speaking rate hit 180 WPM (a 20% spike) during the behavioral question."
 
-Behavioral Translation (Clarity):
-"When you started talking about the conflict with your manager, you began rushing. 
-• So What? It makes it harder for the interviewer to follow your logic, and it can signal nervousness.
-• Now What? Next time you feel yourself rushing, deliberately pause for one full breath before stating your final resolution. Let's practice just that sentence again."
-```
+    Behavioral Translation (Clarity):
+    "When you started talking about the conflict with your manager, you began rushing. 
+    • So What? It makes it harder for the interviewer to follow your logic, and it can signal nervousness.
+    • Now What? Next time you feel yourself rushing, deliberately pause for one full breath before stating your final resolution. Let's practice just that sentence again."
 
 ---
 
@@ -190,7 +189,8 @@ Instead of numbers, give them an interactive timeline of their video clip, flagg
 
 ### 2. The Verdict (The Diagnostic Summary)
 A three-sentence summary of what the data says about their current readiness.
-> "Physically, your presence is calm and professional. Verbally, your core narratives are strong, but they break down into rushing whenever you are asked an unscripted follow-up question. You are highly competitive on prepared answers, but vulnerable on spontaneous ones."
+!!! note 
+    "Physically, your presence is calm and professional. Verbally, your core narratives are strong, but they break down into rushing whenever you are asked an unscripted follow-up question. You are highly competitive on prepared answers, but vulnerable on spontaneous ones."
 
 ---
 
@@ -278,15 +278,15 @@ Assistant Response 5
 
 ---
 
-> Note User Prompt 6
->"You have just arrived at the absolute core of your product’s value proposition. Let’s answer this directly, because understanding why a pure "MRI" is intensely valuable will save you months of unnecessary feature-building.  
+???+ note "User Prompt 6"
+    "You have just arrived at the absolute core of your product’s value proposition. Let’s answer this directly, because understanding why a pure "MRI" is intensely valuable will save you months of unnecessary feature-building.  
 
-> Is it valuable as just an "MRI"?
->>Yes. Infinitely valuable.
-In fact, for your target user, the MRI is actually *more* valuable than the treatment.
-Here is why: in job interviewing, public speaking, or acting, **the primary problem isn’t that people don’t know how to speak human; the problem is that they are completely blind to their own blind spots.**
-When you practice in front of a dumb mirror, your brain is doing double duty: it’s trying to perform, and it’s trying to evaluate at the same time. Because of cognitive load, you *cannot* accurately judge how you look or sound while you are doing it.
-An objective, high-fidelity AI diagnostic solves the single hardest part of preparation: **it eliminates the unknown.** The moment a user sees a timeline flag that says, *"You stared at the ceiling for 8 seconds while explaining this project,"* the value is delivered. They don't need an AI to teach them "how to look forward"—they just needed to know they were looking at the ceiling.
+???+ note "Is it valuable as just an "MRI"?"
+    Yes. Infinitely valuable.
+    In fact, for your target user, the MRI is actually *more* valuable than the treatment.
+    Here is why: in job interviewing, public speaking, or acting, **the primary problem isn’t that people don’t know how to speak human; the problem is that they are completely blind to their own blind spots.**
+    When you practice in front of a dumb mirror, your brain is doing double duty: it’s trying to perform, and it’s trying to evaluate at the same time. Because of cognitive load, you *cannot* accurately judge how you look or sound while you are doing it.
+    An objective, high-fidelity AI diagnostic solves the single hardest part of preparation: **it eliminates the unknown.** The moment a user sees a timeline flag that says, *"You stared at the ceiling for 8 seconds while explaining this project,"* the value is delivered. They don't need an AI to teach them "how to look forward"—they just needed to know they were looking at the ceiling.
 ## 2. Is there a need to add pointers?
 If you define "pointers" as instructions or lessons (*"Here is how to use the STAR method"*), then **no**, there is no need. Adding them actually dilutes your value.
 However, there is a distinct difference between **Medical Treatment** (Teaching) and **A Medical Prescription** (The Next Step).
@@ -296,6 +296,7 @@ Look at how you can provide maximum value without ever "teaching":
 |---|---|
 | "You rushed here. Let me teach you a 4-7-8 breathing technique to lower your heart rate..." | **The Prescription:** "You rushed during the conflict question. Try answering this exact same question again, but try to finish it in 60 seconds instead of 40." |
 | "You used too many filler words. Here is a lesson on why we use filler words and how to replace them with pauses..." | **The Prescription:** "You looped 'like' 5 times here. Let's do a 30-second lightning round where the mic mutes for a split second every time you say 'like'." |
+
 ## The Momentum Loop
 By keeping it an MRI that offers a *Prescription* rather than a *Lesson*, you create a highly addictive user loop:
 ```

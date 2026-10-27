@@ -1,17 +1,16 @@
 # Welcome Practice Portfolio
 
-To check out my Ideas visit [Nveesage on web](https://nveesage.github.io/Documentation-Publishing---Ideas-/).
+Hi i am Ikponmwosa Ugiagbe and this is my practice documentation site, you are welcome. Please allow me give you a tour but first, please dawn some safety gadgets  :fontawesome-solid-helmet-safety:, :safety_vest: and :material-safety-goggles: lol, its an uncompleted site after all 
 
-## a little crack at Commands
+## A brief overview
+- **Material sample section**   
+In this section, its about ai lending a more simplified and nuanced (more applicable to my unique position at the time) interpretation of the original documentation that seemed a bit out of reach for me
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- **Resource section**  
+responsible for holding all the pictures i have for collages and mosaics. It's designed to be an Oasis in the midst of heavy documentation. Somewhere within the site that allows you to relax, as you can tell its a passion project
 
-## Project layout
+- **Tests section**   
+this section contains all the practice and tests of various features in the material for mkdocs theme. It's a thrilling experience
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- **idea deck**  
+ It's a collection of the titbits of every recorded idea that has struck me over the years. For the full documentation of the Ideas deck visit [Nveesage on web](https://nveesage.github.io/Documentation-Publishing---Ideas-/).
